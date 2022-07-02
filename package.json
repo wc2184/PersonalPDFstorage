@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "William Chan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "downloads-folder": "^3.0.3",
+    "express": "^4.18.1",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
