@@ -7,6 +7,7 @@ const app = express();
 
 app.use(cors({ credentials: true, origin: true }));
 let PORT = process.env.PORT || 5000;
+app.use("/pdf", express.static(__dirname + "/pathToPDF"));
 
 // TypeScript: import ytdl from 'ytdl-core'; with --esModuleInterop
 // TypeScript: import * as ytdl from 'ytdl-core'; with --allowSyntheticDefaultImports
